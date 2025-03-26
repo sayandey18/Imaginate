@@ -41,7 +41,7 @@ interface FluxData {
 
 // Set runtime configuration for Node.js with maximum execution time
 export const runtime = 'nodejs';
-export const maxDuration = 300; // 5 minutes
+export const maxDuration = 60; // 1 minutes (Hobby plan)
 
 // Create client connection once and reuse it across requests
 let clientPromise: Promise<any> | null = null;
